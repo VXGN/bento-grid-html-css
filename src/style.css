@@ -1,0 +1,163 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+::selection{
+    background-color: #d68c24;
+}
+
+html{
+    scroll-padding: 5rem;
+}
+body{
+    margin: 0;
+    background-color: #0d0d0d;
+    color: #b7b7b7;
+    font-family: Verdana;    
+}
+
+main {
+    padding: 1% 12% 12% 12%;
+}
+
+p {
+    padding: 10px;
+    font-size: xx-small;
+    text-align: justify;
+}
+/* header */
+.wrapper{
+    padding: 200px 0px 180px 0px;
+}
+
+.wrapper h1{
+    max-width: 120px;
+}
+
+.wrapper p{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    max-width: 200px;
+}
+/* container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  justify-content: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content2{
+    flex-direction: column;
+}
+
+.hl{
+    color: #62cb52;
+}
+/* box */
+.box {
+  padding: 15px;
+  display: flex;
+  align-items: center;  
+  flex-grow: 1;
+  background-color: rgb(21, 21, 21);
+  box-shadow: #000000 4px 4px 8px;
+  cursor: pointer;
+  border-radius: 19px;
+  transition: .4s ease;
+}
+
+.box:hover {
+  position: relative;
+  z-index: 1;
+  padding: 35px;
+  margin: -20px;
+  border-radius: 12px;
+  transition: .2s ease;
+  background-color: #432a63;
+}
+
+aside{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 18px;
+}
+
+.bx1 {
+  padding: 30px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  background-color: rgb(21, 21, 21);
+  box-shadow: #000000 4px 4px 8px;
+  border-radius: 19px;
+}
+
+.box0 { flex-basis: 800px; }
+.box1 { flex-basis: 200px; }
+.box2 { flex-basis: 10px; }
+
+/* img */
+img{
+  border-radius: 19px;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* header */
+header{
+    z-index: 2;
+    margin: auto;
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(21, 21, 21);
+    box-shadow: #000000 4px 4px 8px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header h1{
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: .8em;
+}
+
+a{
+    color: #b7b7b7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#62cb52;
+}
+
+/* footer */
+footer{
+  margin: auto 0;
+  width: 100vw;
+  height: 120px;
+  background-color: rgb(21, 21, 21);
+  box-shadow: #000000 4px 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
